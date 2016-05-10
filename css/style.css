@@ -1,0 +1,36 @@
+body {
+	background-color: #EB1A0C;
+	font-family: 'Lobster Two', cursive;
+	width: 100%;
+
+}
+
+.loader_page {
+	width: 100%;
+	text-align: center;
+	font-size: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.loader_page button {
+	margin-top: 15px;
+	width: 700px;
+	height: 150px;
+	font-size: 40px;
+	border-radius: 15px;
+	border: 0px;
+	background-color: #F65800;
+	font-weight: bold;
+}
+
+.loader_page img {
+	width: 100%;
+
+}
+
+.container {
+	display: none;
+}
