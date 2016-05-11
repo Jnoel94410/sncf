@@ -101,6 +101,9 @@ body {
 
 
 
-#api-bdv:not(#bdv-item-title h5) {
-	display: none;
+#api-bdv {
+	visibility: hidden;
+}
+#bdv-item-title h5 {
+	visibility: all;
 }
