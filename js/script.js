@@ -30,27 +30,27 @@ app.controller('mainCtrl', function($scope) {
 	  {
 	  	"name": "Georges Café",
 	  	"adresse": "4 rue de la Huchette,Paris",
-	  	"image":"GeorgesCafés.jpg"
+	  	"image":"img/GeorgesCafé.jpg"
 	  },
 	  {
 	  	"name": "Le petit pont",
 	  	"adresse": "1 rue de la Huchette,Paris",
-	  	"image":"cafe-le-petit-pont.jpg"
+	  	"image":"img/cafe-le-petit-pont.jpg"
 	  },
 	  {
 	  	"name": "Le Polly Maggoo",
 	  	"adresse": "5 rue du petit pont,Paris",
-	  	"image":"polly-magoo.jpg"
+	  	"image":"img/polly-magoo.jpg"
 	  },
 	  {
 	  	"name": "Shywawa Pub",
 	  	"adresse": "7 rue du petit pont,Paris",
-	  	"image":"Shywawa.jpg"
+	  	"image":"img/Shywawa.jpg"
 	  },
 	  {
 	  	"name": "Gentleman",
 	  	"adresse": "3 rue Hautefeuille,Paris",
-	  	"image":"Gentleman.jpg"
+	  	"image":"img/Gentleman.jpg"
 	  }
 	];
 
