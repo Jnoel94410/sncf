@@ -5,17 +5,20 @@ app.controller('mainCtrl', function($scope) {
 	  {
 	  	"name": "Galway",
 	  	"adresse": "13 quai des Grands Augustins,Paris",
-	  	"image":"img/galway.jpg"
+	  	"image":"img/galway.jpg",
+	  	"api":"<div id="api-bdv" data-option='{"main":false, "luminosity":true, "pollution":false, "quietness":false, "proximity":false, "mapCursor":"null"}' data-ref='{"bdvkey":"jeremiebb73d4465608582ffc8dcd3cb76639f53", "address":"{{Element.adresse}}", "floor":"0"}' ></div>"
 	  },
 	  {
 	  	"name": "Pub St Michel",
 	  	"adresse": "19 Quai Saint-Michel,Paris",
-	  	"image":"img/le-pub-saint-michel.jpg"
+	  	"image":"img/le-pub-saint-michel.jpg",
+	  	"api":"<div id="api-bdv" data-option='{"main":false, "luminosity":true, "pollution":false, "quietness":false, "proximity":false, "mapCursor":"null"}' data-ref='{"bdvkey":"jeremiebb73d4465608582ffc8dcd3cb76639f53", "address":"{{Element.adresse}}", "floor":"0"}' ></div>"
 	  },
 	  {
 	  	"name": "Le Bistrot de la Huchette",
 	  	"adresse": "27 rue de la Huchette,Paris",
-	  	"image":"img/bistrotdelahuchette1.jpg"
+	  	"image":"img/bistrotdelahuchette1.jpg",
+	  	"api":"<div id="api-bdv" data-option='{"main":false, "luminosity":true, "pollution":false, "quietness":false, "proximity":false, "mapCursor":"null"}' data-ref='{"bdvkey":"jeremiebb73d4465608582ffc8dcd3cb76639f53", "address":"{{Element.adresse}}", "floor":"0"}' ></div>"
 	  },
 	  {
 	  	"name": "Ze Bar",
