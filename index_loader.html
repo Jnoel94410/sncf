@@ -7,7 +7,7 @@
 	<meta charset="UTF-8">
 	<title>Terrasse</title>
 	<script   src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
-	<script type="text/javascript" src="http://api.bondevisite.fr/app/v1/bdv-snip.js"></script>
+	<script type="text/javascript" src="http://api.bondevisite.fr/app/v1/bdv.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
 	<script type="text/javascript" src="js/loader.js"></script>
 	<script type="text/javascript" src="js/bar_angular.js"></script>
@@ -41,7 +41,6 @@
 		<!-- Debut Test API/Angular Flo -->
 
 
-
 	<div class="container-fluid">
 
 		<div class="maps col-lg-12 col-md-12 col-sm-12 col-xs-12" >
@@ -53,7 +52,14 @@
 				<p>{{Element.adresse}}</p>
 				<div id="api-bdv" data-option='{"main":false, "luminosity":true, "pollution":false, "quietness":false, "proximity":false, "mapCursor":"null"}' data-ref='{"bdvkey":"jeremiebb73d4465608582ffc8dcd3cb76639f53", "address":"11 rue victor cousin, Paris", "floor":"0"}' ></div>
 			</div>
+	<div class="container">
+
+  		<div ng-repeat="Element in bars">
+  			<p>{{Element.name}}</p>
+  			<img src="{{Element.image}}" style="width: 350px; height: 200px">
+  			<div id="api-bdv" data-option='{"main":false, "luminosity":true, "pollution":false, "quietness":false, "proximity":false, "mapCursor":"null"}' data-ref='{"bdvkey":"jeremiebb73d4465608582ffc8dcd3cb76639f53", "address":'ng-bind="Element.adresse"', "floor":"0"}'></div>
 		</div>
+
 	</div>
 
 	<script src="js/script.js"></script>
