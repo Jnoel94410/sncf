@@ -23,10 +23,6 @@ app.controller('mainCtrl', function($scope) {
 	  	"adresse": "16 rue de la Huchette,Paris"
 	  },
 	  {
-	  	"name": "Latin Corner",
-	  	"adresse": "12 rue de la Huchette,Paris"
-	  },
-	  {
 	  	"name": "Georges Café",
 	  	"adresse": "4 rue de la Huchette,Paris"
 	  },
