@@ -101,6 +101,6 @@ body {
 
 
 
-div #bdv-control-left, div #bdv-control-right, div #bdv-map-content, div #bdv-diagnosis-content, #transitall, #bdv-luminositydetail, #bdv-diagnosis-wrap {
+div #bdv-control-left, div #bdv-control-right, div #bdv-map-content, div #bdv-diagnosis-content, #transitall, #bdv-luminositydetail {
 	display: none;
 }
