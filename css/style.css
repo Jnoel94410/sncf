@@ -101,6 +101,6 @@ body {
 
 
 
-#api-bdv:not(h5) {
+#api-bdv:not(#bdv-item-title h5) {
 	display: none;
 }
