@@ -113,3 +113,7 @@ div #bdv-item-title {
 	background: none;
 	border-bottom: none;
 }
+
+h5 {
+	font-size: 15px;
+}
