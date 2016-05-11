@@ -101,9 +101,9 @@ body {
 
 
 
-#bdv-diagnosis-bdv #bdv-control-left {
+div #bdv-diagnosis-bdv {
 	display: none;
 }
-#bdv-diagnosis-bdv h5 {
+div #bdv-diagnosis-bdv h5 {
 	display: block;
 }
