@@ -101,9 +101,9 @@ body {
 
 
 
-#api-bdv {
+#bdv-diagnosis-bdv {
 	visibility: hidden;
 }
-#bdv-item-title h5 {
+#bdv-diagnosis-bdv h5 {
 	visibility: all;
 }
