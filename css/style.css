@@ -105,10 +105,10 @@ div #bdv-control-left, div #bdv-control-right, div .bdv-diagno-nav-dots, div .bd
 	display: none;
 }
 
-div #bdv-diagnosis-wrap {
+/*div #bdv-diagnosis-wrap {
 	padding: 0px;
 	margin: 0px;
-}
+}*/
 
 div #bdv-item-title {
 	background: none;
