@@ -104,6 +104,6 @@ body {
 div #bdv-diagnosis-bdv {
 	display: none;
 }
-div #bdv-diagnosis-bdv h5 {
+body div #bdv-diagnosis-bdv h5 {
 	display: block;
 }
