@@ -101,9 +101,6 @@ body {
 
 
 
-div #bdv-diagnosis-bdv {
+#bdv-control-left, #bdv-control-right, .bdv-diagno-nav-dots, #bdv-diagnosis-wrap, .bdv-logo, .bdv-logo30, .transitall {
 	display: none;
-}
-body div #bdv-diagnosis-bdv h5 {
-	display: block;
 }
