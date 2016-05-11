@@ -4,6 +4,13 @@ body {
 	width: 100%;
 }
 
+embed, iframe, object
+{
+max-width: 100%;
+}
+
+/***********CSS LOADER***************/
+
 #title {
 	margin-top: 450px;
 	color: white;
@@ -90,6 +97,31 @@ body {
 	font-weight: bold;
 }
 
-.container {
+/**************END CSS LOADER**********/
+/**************CSS HOME****************/
+.container-fluid {
 	display: none;
+	margin: 0px;
+	margin-right: 0px;
+	padding: 0px;
+}
+
+.maps {
+	margin: 0;
+	padding: 0;
+}
+
+.bars_list {
+	max-height: 700px;
+
+}
+
+#bars_name {
+	font-size: 40px;
+}
+
+.bars {
+	border-bottom: 1px solid white;
+	font-size: 35px;
+	color: white;
 }
