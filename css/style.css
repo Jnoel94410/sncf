@@ -101,9 +101,6 @@ body {
 
 
 
-#api-bdv {
+#api-bdv:not(h5) {
 	display: none;
-}
-h5 {
-	display: inline-block;
 }
