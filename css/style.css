@@ -101,6 +101,6 @@ body {
 
 
 
-div #bdv-control-left, div #bdv-control-right, div #bdv-diagnosis-wrap, div #bdv-map-content, div #bdv-diagnosis-content, div #bdv-master-wrap {
+div #bdv-control-left, div #bdv-control-right, div #bdv-diagnosis-wrap, div #bdv-map-content, div #bdv-diagnosis-content {
 	display: none;
 }
