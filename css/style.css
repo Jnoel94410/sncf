@@ -128,6 +128,15 @@ max-width: 100%;
 	color: white;
 }
 
+.contain-image {
+	/*pour positionner l'image ?*/
+}
+
+.image {
+	width: 320px;
+	height: 200px;
+}
+
 div #bdv-control-left, div #bdv-control-right, div .bdv-diagno-nav-dots, div .bdv-logo, div .bdv-logo30, div .transitall, div .bdv-luminosity-info, div #bdv-charts-wrapper {
 	display: none;
 }
