@@ -108,9 +108,14 @@ max-width: 100%;
 	padding: 0px;
 }
 
+.row {
+	margin: 0px;
+}
+
 .maps {
 	margin: 0;
 	padding: 0;
+	margin-bottom: 40px;
 }
 
 .bars_list {
@@ -118,14 +123,26 @@ max-width: 100%;
 
 }
 
-#bars_name {
-	font-size: 40px;
+.bars_name {
+	font-size: 35px;
+}
+
+.bars_adress {
+	font-size: 27px;
 }
 
 .bars {
-	border-bottom: 1px solid white;
-	font-size: 35px;
+	border: 1px solid white;
 	color: white;
+	border-radius: 20px;
+	margin-bottom: 40px;
+}
+
+.image {
+	float: right;
+	position: relative;bottom: 25px;
+	width: 110px;
+	height: 110px;
 }
 
 div #bdv-control-left, div #bdv-control-right, div .bdv-diagno-nav-dots, div .bdv-logo, div .bdv-logo30, div .transitall, div .bdv-luminosity-info, div #bdv-charts-wrapper {
