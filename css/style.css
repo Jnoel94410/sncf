@@ -2,6 +2,7 @@ body {
 	background-color: #EB1A0C;
 	font-family: 'Roboto Condensed', sans-serif;
 	width: 100%;
+    text-transform: uppercase;
 }
 
 embed, iframe, object
@@ -9,94 +10,87 @@ embed, iframe, object
 max-width: 100%;
 }
 
-/***********CSS LOADER***************/
+/***********Home***************/
 
-#title {
-	margin-top: 450px;
+.home-main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    align-content: center;
+	flex-direction: column;
+}
+
+.home-flex-item-container {
+	width: 100%;
+    margin-top: -95px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    align-content: space-between;
+	flex-direction: column;
+}
+
+.home-title {
 	color: white;
 	font-weight: bold;
-	font-size: 75px;
+	font-size: 3em;
 }
 
-.loader_flex {
+.hero-image{
+    background: url(../img/header1.jpg) no-repeat center / cover;
 	width: 100%;
-	height: 400px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
+    min-height: 320px;
+    
 }
 
-.loader_page {
-	background: url(../img/header1.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	width: 100%;
-	height: 600px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-}
-
-.loader_input input {
-	margin-top: 50px;
-	width: 600px;
-	height: 90px;
-	border: 0px;
+.home-search-input input {
+    padding: 8px;
 	color: black;
-	font-size: 45px;
+	font-size: 1em;
 }
 
-.loader_input button {
-	position: relative;bottom: 8px;
+.home-search-input button {
 	background-color: #F65800;
-	width: 200px;
-	height: 90px;
-	border: 0px;
-	font-size: 25px;
-	margin-left: 0px;
+    border: none;
+    padding: 10px;
+	font-size: 1em;
+    color: white;
 }
 
-#description {
-	margin-top: 100px;
+.home-description {
 	color: white;
-	width: 50%;
-	height: 150px;
+	width: 80%;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	font-size: 40px;
+	font-size: 1.4em;
 }
 
-.loader_social {
-	margin-top: 120px;
+.home-social {
 	margin-bottom: 50px;
-	width: 200;
-	height: 175px;
 	display: flex;
-	margin-left: 15%;
-	flex-direction: column;
+    align-items: center;
+	flex-flow: column wrap;
 }
 
-#social_placement {
+.social-icons {
 	display: flex;
-	justify-content: space-around;
 	align-items: center;
-	width: 40%;
-	margin-top: 15px;
+    justify-content: space-around;
 }
 
-#social_placement img {
-	width: 75px;
-	height: 75px;
-	margin-right: 25px;
+.home-social img {
+	width: 40px;
+	height: 40px;
+    border-radius: 3px;
+    background: white;
 }
 
-#social_placement p {
+.home-social p {
 	color: white;
-	font-size: 30px;
+	font-size: 1.3em;
 	font-weight: bold;
+    margin-bottom: 5px;
 }
 
 /**************END CSS LOADER**********/
