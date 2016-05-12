@@ -4,7 +4,7 @@ app.controller('mainCtrl', function($scope) {
 	$scope.bars = [
 	  {
 	  	"name": "Galway",
-	  	"adresse": "'13 quai des Grands Augustins,Paris'",
+	  	"adresse": "13 quai des Grands Augustins,Paris",
 	  	"image":"img/galway.jpg"
 	  },
 	  {
