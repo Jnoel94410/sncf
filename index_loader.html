@@ -8,7 +8,6 @@
 	<title>Terrasse</title>
 	<script   src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
 	<script type="text/javascript" src="http://api.bondevisite.fr/app/v1/bdv.js"></script>
-	<script type="text/javascript" src="http://api.bondevisite.fr/app/v1/bdv-snip.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
 	<script type="text/javascript" src="js/loader.js"></script>
 	<script src="js/script.js"></script>
@@ -37,6 +36,8 @@
 			</div>
 		</div>
 
+
+
 	<div class="container-fluid">
 
 		<div class="maps col-lg-12 col-md-12 col-sm-12 col-xs-12" >
@@ -46,12 +47,85 @@
 			<div class="bars col-lg-6 col-md-6 col-sm-12 col-xs-12">
 				<p class="bars_name">Galway</p>
 				<p class="bars_address">13 quai des Grands Augustins,Paris</p>
-				<div id="api-bdv" data-ref='{"bdvkey":"votre clé", "address":"11 rue victor cousin, Paris", "floor":"2"}' ></div>
 				<div id="api-bdv" data-option='{"main":false, "luminosity":true, "pollution":false, "quietness":false, "proximity":false, "mapCursor":"null"}' data-ref='{"bdvkey":"jeremiebb73d4465608582ffc8dcd3cb76639f53", "address":"13 quai des Grands Augustins,Paris", "floor":"0"}'></div>
 				<div class="contain-image">
 					<img class="image" src="img/galway.jpg">
 				</div>
 			</div>
+			<div class="bars col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<p class="bars_name">Pub St Michel</p>
+				<p class="bars_address">19 Quai Saint-Michel,Paris</p>
+				<div id="api-bdv" data-option='{"main":false, "luminosity":true, "pollution":false, "quietness":false, "proximity":false, "mapCursor":"null"}' data-ref='{"bdvkey":"jeremiebb73d4465608582ffc8dcd3cb76639f53", "address":"19 Quai Saint-Michel,Paris", "floor":"0"}'></div>
+				<div class="contain-image">
+					<img class="image" src="img/le-pub-saint-michel.jpg">
+				</div>
+			</div>
+			<div class="bars col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<p class="bars_name">Le Bistrot de la Huchette</p>
+				<p class="bars_address">27 rue de la Huchette,Paris</p>
+				<div id="api-bdv" data-option='{"main":false, "luminosity":true, "pollution":false, "quietness":false, "proximity":false, "mapCursor":"null"}' data-ref='{"bdvkey":"jeremiebb73d4465608582ffc8dcd3cb76639f53", "address":"27 rue de la Huchette,Paris", "floor":"0"}'></div>
+				<div class="contain-image">
+					<img class="image" src="img/bistrotdelahuchette1.jpg">
+				</div>
+			</div>
+			<div class="bars col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<p class="bars_name">Ze Bar</p>
+				<p class="bars_address">20 rue de la Huchette,Paris</p>
+				<div id="api-bdv" data-option='{"main":false, "luminosity":true, "pollution":false, "quietness":false, "proximity":false, "mapCursor":"null"}' data-ref='{"bdvkey":"jeremiebb73d4465608582ffc8dcd3cb76639f53", "address":"20 rue de la Huchette,Paris", "floor":"0"}'></div>
+				<div class="contain-image">
+					<img class="image" src="img/zeBar.jpg">
+				</div>
+			</div>
+			<div class="bars col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<p class="bars_name">Le Relais de la Huchette</p>
+				<p class="bars_address">16 rue de la Huchette,Paris</p>
+				<div id="api-bdv" data-option='{"main":false, "luminosity":true, "pollution":false, "quietness":false, "proximity":false, "mapCursor":"null"}' data-ref='{"bdvkey":"jeremiebb73d4465608582ffc8dcd3cb76639f53", "address":"16 rue de la Huchette,Paris", "floor":"0"}'></div>
+				<div class="contain-image">
+					<img class="image" src="img/RelaisDeLaHuchette.jpg">
+				</div>
+			</div>
+			<div class="bars col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<p class="bars_name">Georges Café</p>
+				<p class="bars_address">4 rue de la Huchette,Paris</p>
+				<div id="api-bdv" data-option='{"main":false, "luminosity":true, "pollution":false, "quietness":false, "proximity":false, "mapCursor":"null"}' data-ref='{"bdvkey":"jeremiebb73d4465608582ffc8dcd3cb76639f53", "address":"4 rue de la Huchette,Paris", "floor":"0"}'></div>
+				<div class="contain-image">
+					<img class="image" src="img/GeorgesCafé.jpg">
+				</div>
+			</div>
+			<div class="bars col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<p class="bars_name">Le petit pont</p>
+				<p class="bars_address">1 rue de la Huchette,Paris</p>
+				<div id="api-bdv" data-option='{"main":false, "luminosity":true, "pollution":false, "quietness":false, "proximity":false, "mapCursor":"null"}' data-ref='{"bdvkey":"jeremiebb73d4465608582ffc8dcd3cb76639f53", "address":"img/cafe-le-petit-pont.jpg", "floor":"0"}'></div>
+				<div class="contain-image">
+					<img class="image" src="img/cafe-le-petit-pont.jpg">
+				</div>
+			</div>
+			<div class="bars col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<p class="bars_name">Le Polly Maggoo</p>
+				<p class="bars_address">5 rue du petit pont,Paris</p>
+				<div id="api-bdv" data-option='{"main":false, "luminosity":true, "pollution":false, "quietness":false, "proximity":false, "mapCursor":"null"}' data-ref='{"bdvkey":"jeremiebb73d4465608582ffc8dcd3cb76639f53", "address":"5 rue du petit pont,Paris", "floor":"0"}'></div>
+				<div class="contain-image">
+					<img class="image" src="img/polly-magoo.jpg">
+				</div>
+			</div>
+			<div class="bars col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<p class="bars_name">Shywawa Pub</p>
+				<p class="bars_address">7 rue du petit pont,Paris</p>
+				<div id="api-bdv" data-option='{"main":false, "luminosity":true, "pollution":false, "quietness":false, "proximity":false, "mapCursor":"null"}' data-ref='{"bdvkey":"jeremiebb73d4465608582ffc8dcd3cb76639f53", "address":"7 rue du petit pont,Paris", "floor":"0"}'></div>
+				<div class="contain-image">
+					<img class="image" src="img/Shywawa.jpg">
+				</div>
+			</div>
+			<div class="bars col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<p class="bars_name">Gentleman</p>
+				<p class="bars_address">3 rue Hautefeuille,Paris</p>
+				<div id="api-bdv" data-option='{"main":false, "luminosity":true, "pollution":false, "quietness":false, "proximity":false, "mapCursor":"null"}' data-ref='{"bdvkey":"jeremiebb73d4465608582ffc8dcd3cb76639f53", "address":"3 rue Hautefeuille,Paris", "floor":"0"}'></div>
+				<div class="contain-image">
+					<img class="image" src="img/Gentleman.jpg">
+				</div>
+			</div>
+
+		</div>
 	
 
 	

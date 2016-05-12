@@ -9,12 +9,12 @@ app.controller('mainCtrl', function($scope) {
 	  },
 	  {
 	  	"name": "Pub St Michel",
-	  	"adresse": "'19 Quai Saint-Michel,Paris'",
+	  	"adresse": "19 Quai Saint-Michel,Paris",
 	  	"image":"img/le-pub-saint-michel.jpg"
 	  },
 	  {
 	  	"name": "Le Bistrot de la Huchette",
-	  	"adresse": "'27 rue de la Huchette,Paris'",
+	  	"adresse": "27 rue de la Huchette,Paris",
 	  	"image":"img/bistrotdelahuchette1.jpg"
 	  },
 	  {
