@@ -145,6 +145,7 @@ max-width: 100%;
 
 .bars_adress {
 	font-size: 25px;
+	margin: 0px;
 }
 
 .bars {
@@ -155,6 +156,18 @@ max-width: 100%;
 	justify-content: space-between;
 	align-items: flex-start;
 
+}
+
+.sun {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: row;
+}
+
+.sun_detail {
+	width: 15%;
+	height: 15%;
 }
 
 .image {
@@ -179,4 +192,33 @@ div #bdv-item-title {
 
 h5 {
 	font-size: 15px;
+}
+
+
+
+
+/************MEQIA QUERIES *********************/
+
+
+@media screen and (max-width: 400px) {
+  .bars_name {
+    font-size: 15px;
+    line-height: 17px;
+  }
+
+  .bars_adress {
+  	font-size: 12px;
+  }
+
+  .image {
+  	width: 75px;
+  	height: 75px;
+  }
+
+  .container-fluid {
+  }
+
+  iframe {
+  	height: 200px;
+  }
 }
