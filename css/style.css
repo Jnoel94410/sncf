@@ -22,7 +22,6 @@ max-width: 100%;
 
 .home-flex-item-container {
 	width: 100%;
-    margin-top: -95px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -33,7 +32,6 @@ max-width: 100%;
 .home-title {
 	color: white;
 	font-weight: bold;
-	font-size: 3em;
 }
 
 .hero-image{
@@ -42,42 +40,137 @@ max-width: 100%;
     height: 320px;  
 }
 
+/*Hero-Image for iphone 4*/
 @media screen and (max-height: 480px){
     .hero-image{
         height: 260px;
     }
 }
 
+/*Hero-Image for iphone 5*/
 @media screen and (min-height: 481px){
     .hero-image{
         height: 350px;
     }
 }
-
+/*Hero-Image for iphone 6 plus*/
 @media screen and (min-height: 668px){
     .hero-image{
         height: 400px;
     }
 }
 
-@media screen and (min-width: 768px) and {
+/* Hero-image,Text & inputs for iphones and up*/
+@media screen and (min-width: 320px) and (max-width: 415px){
+    .home-title{
+        font-size: 3em
+    }
+    .home-flex-item-container {
+        margin-top: -95px;
+    }
+    .home-search-input input{
+        padding: 10px;
+        font-size: 1em;
+    }
+    .home-search-input button {
+        padding: 12px;
+        font-size: 1em;
+    }
+    .home-description {
+        font-size: 1.3em;
+    }
+    .home-social p{
+        font-size: 1.3em;
+    }
+}
+
+/* Hero-image,Text & inputs for iphones in landscape mode*/
+@media screen and (min-width: 420px) and (max-width: 760px){
+    .home-title{
+        font-size: 3em
+    }
+    .home-flex-item-container {
+        margin-top: -95px;
+    }
+    .home-search-input input{
+        padding: 10px;
+        font-size: 1em;
+    }
+    .home-search-input button {
+        padding: 12px;
+        font-size: 1em;
+    }
+    .home-description {
+        font-size: 1.3em;
+    }
+    .home-social p{
+        font-size: 1.3em;
+    }
+}
+
+
+/* Hero-image,Text & inputs for ipads mini and Air*/
+@media screen and (min-width: 768px) {
     .hero-image{
         height: 600px;
+    }
+    .home-flex-item-container {
+        margin-top: -135px;
+    }
+    .home-title{
+        font-size: 4em
+    }
+    .home-search-input input{
+        padding: 20px;
+        font-size: 1.8em;
+    }
+    .home-search-input button {
+        padding: 22px;
+        font-size: 1.8em;
+    }
+    .home-description {
+        font-size: 2em;
+    }
+    .home-social p{
+        font-size: 2em;
+    }
+}
+
+/* Hero-image,Text & inputs for ipad*/
+@media screen and (min-width: 1024px) {
+    .hero-image{
+        height: 600px;
+    }
+    .home-flex-item-container {
+        margin-top: -145px;
+    }
+    .home-title{
+        font-size: 5em
+    }
+    .home-search-input input{
+        padding: 20px;
+        font-size: 1.8em;
+    }
+    .home-search-input button {
+        padding: 22px;
+        font-size: 1.8em;
+    }
+    .home-description {
+        font-size: 2.5em;
+    }
+    .home-social p{
+        font-size: 2.5em;
     }
 }
 
 
 .home-search-input input {
-    padding: 8px;
 	color: black;
-	font-size: 1em;
 }
 
 .home-search-input button {
 	background-color: #F65800;
     border: none;
-    padding: 10px;
-	font-size: 1em;
     color: white;
 }
 
@@ -87,13 +180,12 @@ max-width: 100%;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	font-size: 1.3em;
 }
 
 .home-social {
 	display: flex;
     align-items: center;
-	flex-flow: column wrap;
+	flex-flow: column;
 }
 
 .social-icons {
@@ -112,9 +204,8 @@ max-width: 100%;
 
 .home-social p {
 	color: white;
-	font-size: 1.3em;
 	font-weight: bold;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 /**************END CSS LOADER**********/
