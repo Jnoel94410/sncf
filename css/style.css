@@ -102,24 +102,52 @@ max-width: 100%;
 	padding: 0px;
 }
 
+.row {
+	margin: 0px;
+}
+
 .maps {
 	margin: 0;
 	padding: 0;
+	margin-bottom: 40px;
 }
 
 .bars_list {
 	max-height: 700px;
-
 }
 
-#bars_name {
-	font-size: 40px;
+.bar_total {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: column;
+}
+
+.bars_name {
+	font-size: 35px;
+	margin: 0px;
+	line-height: 29px;
+}
+
+.bars_adress {
+	font-size: 25px;
 }
 
 .bars {
 	border-bottom: 1px solid white;
-	font-size: 35px;
 	color: white;
+	margin-bottom: 40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+
+}
+
+.image {
+	width: 110px;
+	height: 110px;
+	margin-left: 10px;
+	margin-bottom: 10px;
 }
 
 div #bdv-control-left, div #bdv-control-right, div .bdv-diagno-nav-dots, div .bdv-logo, div .bdv-logo30, div .transitall, div .bdv-luminosity-info, div #bdv-charts-wrapper {
