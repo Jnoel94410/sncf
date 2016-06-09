@@ -53,6 +53,10 @@ app.controller('mainCtrl', function($scope) {
 	  	"image":"img/Gentleman.jpg"
 	  }
 	];
+    
+    $scope.clicked = function() {
+        $scope.show = !$scope.show
+    };
 
 
 });
